@@ -21,6 +21,7 @@ share:
     toGplus: "Deel op Google+"
     toWeibo: "Deel op Weibo"
     toQQ: "Deel via QQ"
+    toQzone: "Deel via Qzone"
 title:
     category: "Categorieën"
     tag: "Label"

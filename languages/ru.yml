@@ -9,7 +9,7 @@ post:
     older: "Старые"
     newer: "Новые"
     qrcode: "Читать эту статью на другом устройстве"
-    comments_load_button: "Читать комментарии (Убедитесь, что disq.us, disquscdn.com и disqus.com могут корректно загрузиться)"    
+    comments_load_button: "Читать комментарии (Убедитесь, что disq.us, disquscdn.com и disqus.com могут корректно загрузиться)"
     permalink: "Ссылка на эту статью: "
 share:
     article_rss: "RSS статьи"
@@ -21,6 +21,7 @@ share:
     toGplus: "Поделиться на Google+"
     toWeibo: "Поделиться на Weibo"
     toQQ: "Поделиться на QQ"
+    toQzone: "Поделиться на Qzone"
 title:
     category: "Категории"
     tag: "Тег"

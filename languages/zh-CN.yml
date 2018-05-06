@@ -9,9 +9,9 @@ post:
     older: "旧篇"
     newer: "新篇"
     qrcode: "在其它设备中阅读本文章"
-    comments_load_button: "阅读评论（请确保 disqus 可以正常加载）"    
-    comments_fully_load_button: "加载完整评论（请确保 disqus 可以正常加载）" 
-    comments_proxy_load_button: "加载评论基本模式"   
+    comments_load_button: "阅读评论（请确保 disqus 可以正常加载）"
+    comments_fully_load_button: "加载完整评论（请确保 disqus 可以正常加载）"
+    comments_proxy_load_button: "加载评论基本模式"
     permalink: "本文链接："
 share:
     article_rss: "文章 RSS"
@@ -23,6 +23,7 @@ share:
     toGplus: "分享到 Google+"
     toWeibo: "分享到微博"
     toQQ: "分享到 QQ"
+    toQzone: "分享到 Qzone"
 title:
     category: "分类"
     tag: "标签"

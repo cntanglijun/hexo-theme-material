@@ -9,7 +9,7 @@ post:
     older: "古い"
     newer: "新しい"
     qrcode: "他のデバイスでこの記事を読む"
-    comments_load_button: "論評を読む「 あなたは disqus & disquscdn.com & disqus.com をロードできることを確認します」"    
+    comments_load_button: "論評を読む「 あなたは disqus & disquscdn.com & disqus.com をロードできることを確認します」"
     permalink: "このリンク："
 share:
     article_rss: "記事 RSS"
@@ -21,6 +21,7 @@ share:
     toGplus: "Google+ での共有"
     toWeibo: "Weibo での共有"
     toQQ: "QQ での共有"
+    toQzone: "Qzone での共有"
 title:
     category: "カテゴリー"
     tag: "ラベル"

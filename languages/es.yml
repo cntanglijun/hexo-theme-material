@@ -9,7 +9,7 @@ post:
     older: "Mayor"
     newer: "Más nuevo"
     qrcode: "Lea este artículo en otro dispositivo"
-    comments_load_button: "Leer comentarios 「Asegúrese de que 'disq.us & disquscdn.com & disqus.com' se puede cargar」"    
+    comments_load_button: "Leer comentarios 「Asegúrese de que 'disq.us & disquscdn.com & disqus.com' se puede cargar」"
     permalink: "Link to this article: "
 share:
     article_rss: "Artículo RSS"
@@ -21,6 +21,7 @@ share:
     toGplus: "Compartir en Google+"
     toWeibo: "Compartir en Weibo"
     toQQ: "Compartir en QQ"
+    toQzone: "Compartir en Qzone"
 title:
     category: "Categoría"
     tag: "Etiqueta"
