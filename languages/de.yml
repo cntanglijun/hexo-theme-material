@@ -9,7 +9,7 @@ post:
     older: "Älteren"
     newer: "Neuren"
     qrcode: "Lesen Sie diesen Artikel auf anderem Gerät"
-    comments_load_button: "Lesen Sie Kommentare 「Stellen Sie sicher, dass 'disq.us & disquscdn.com & disqus.com' geladen werden kann 」"    
+    comments_load_button: "Lesen Sie Kommentare 「Stellen Sie sicher, dass 'disq.us & disquscdn.com & disqus.com' geladen werden kann 」"
 share:
     article_rss: "Artikel als RSS"
     comment_rss: "Kommentare als RSS"
@@ -20,6 +20,7 @@ share:
     toGplus: "Auf Google+ teilen"
     toWeibo: "Auf Weibo teilen"
     toQQ: "Auf QQ teilen"
+    toQzone: "Auf QQ teilezone"
 title:
     category: "Kategorie"
     tag: "Tag"

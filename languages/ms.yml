@@ -9,7 +9,7 @@ post:
     older: "Lama"
     newer: "Baru"
     qrcode: "Baca artikel ini pada peranti lain"
-    comments_load_button: "Read  comments 「Pastikan 'disq.us & disquscdn.com & disqus.com' boleh dimuatkan」"    
+    comments_load_button: "Read  comments 「Pastikan 'disq.us & disquscdn.com & disqus.com' boleh dimuatkan」"
 share:
     article_rss: "RSS Artikel"
     comment_rss: "RSS Ulasan"
@@ -20,6 +20,7 @@ share:
     toGplus: "Kongsi ke Google+"
     toWeibo: "Kongsi ke Weibo"
     toQQ: "Kongsi ke QQ"
+    toQzone: "Kongsi ke Qzone"
 title:
     category: "Kategori"
     tag: "Tag"

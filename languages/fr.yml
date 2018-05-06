@@ -9,7 +9,7 @@ post:
     older: "Ancien"
     newer: "Récent"
     qrcode: "Lire cet article depuis un autre appareil"
-    comments_load_button: "Lire les commentaires (Assurez-vous que disq.us, disquscdn.com et disqus.com peuvent être chargés)"    
+    comments_load_button: "Lire les commentaires (Assurez-vous que disq.us, disquscdn.com et disqus.com peuvent être chargés)"
     permalink: "ce lien: "
 share:
     article_rss: "Flux RSS des articles"
@@ -21,6 +21,7 @@ share:
     toGplus: "Partager sur Google+"
     toWeibo: "Partager sur Weibo"
     toQQ: "Partager sur QQ"
+    toQzone: "Partager sur Qzone"
 title:
     category: "Catégorie"
     tag: "Libellé"

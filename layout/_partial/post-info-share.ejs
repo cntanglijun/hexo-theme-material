@@ -79,6 +79,15 @@
         </a>
     <% } %>
 
+    <!-- Share Qzone -->
+    <% if(theme.sns_share.qzone === true) { %>
+        <a class="post_share-link" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?site=<%= config.title %>&title=<%= page.title %>&summary=<%= config.description %>&pics=<%- config.url + theme.head.favicon %>&url=<%- config.url +  url_for(path) %>" target="_blank">
+            <li class="mdl-menu__item">
+                <%= __('share.toQzone') %>
+            </li>
+        </a>
+    <% } %>
+
     <!-- Share Telegram -->
     <% if(theme.sns_share.telegram === true) { %>
         <a class="post_share-link" href="https://telegram.me/share/url?url=<%- config.url + url_for(path) %>&text=<%= page.title %>" target="_blank">

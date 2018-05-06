@@ -19,6 +19,7 @@ share:
     toGplus: "Compartilhar no Google+"
     toWeibo: "Compartilhar no Weibo"
     toQQ: "Compartilhar no QQ"
+    toQzone: "Compartilhar no QQ"
 title:
     category: "Categorias"
     tag: "Marcadores"
