@@ -6,38 +6,17 @@
 <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
 <script>
-    <% if(theme.comment.gitalk_short_url_source) { %>
-      $.ajax({
-          dataType: 'jsonp',
-          cache: false,
-          url: 'https://api.weibo.com/2/short_url/shorten.json?source=<%= theme.comment.gitalk_short_url_source %>&url_long=' + encodeURIComponent(location.href),
-          success: function (result) {
-            var theShortUrl = result.data.urls[0].url_short
-            var gitalk = new Gitalk({
-                id: theShortUrl,
-                clientID: '<%= theme.comment.gitalk_client_id %>',
-                clientSecret: '<%= theme.comment.gitalk_client_secret %>',
-                repo: '<%= theme.comment.gitalk_repo %>',
-                owner: '<%= theme.comment.gitalk_owner %>',
-                admin: ['<%= theme.comment.gitalk_owner %>'],
-                // facebook-like distraction free mode
-                distractionFreeMode: false
-            })
 
-            gitalk.render('gitalk-container')
-          }
-      })
-    <% } else { %>
-      var gitalk = new Gitalk({
-          clientID: '<%= theme.comment.gitalk_client_id %>',
-          clientSecret: '<%= theme.comment.gitalk_client_secret %>',
-          repo: '<%= theme.comment.gitalk_repo %>',
-          owner: '<%= theme.comment.gitalk_owner %>',
-          admin: ['<%= theme.comment.gitalk_owner %>'],
-          // facebook-like distraction free mode
-          distractionFreeMode: false
-      })
+    var gitalk = new Gitalk({
+        id: btoa(location.href).slice(0,32),
+        clientID: '<%= theme.comment.gitalk_client_id %>',
+        clientSecret: '<%= theme.comment.gitalk_client_secret %>',
+        repo: '<%= theme.comment.gitalk_repo %>',
+        owner: '<%= theme.comment.gitalk_owner %>',
+        admin: ['<%= theme.comment.gitalk_owner %>'],
+        // facebook-like distraction free mode
+        distractionFreeMode: false
+    })
 
-      gitalk.render('gitalk-container')
-    <% } %>
+    gitalk.render('gitalk-container')
 </script>

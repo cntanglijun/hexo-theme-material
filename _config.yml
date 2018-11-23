@@ -264,7 +264,6 @@ comment:
     gitalk_owner: cntanglijun # git repo's owner
     gitalk_client_id: 34424562a1c9a39ea6ef # github app client id
     gitalk_client_secret: 6136d08780bb790bc2c515deb13f74df24734ee8 # github app client secret
-    gitalk_short_url_source: 202088835
     wildfire_database_provider: firebase # firebase or wilddog
     wildfire_wilddog_site_id:
     wildfire_firebase_api_key:
