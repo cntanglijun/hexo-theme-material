@@ -241,7 +241,7 @@ sidebar:
 # If you want to use gitment or gitalk,you should get the client_id and client_secret from https://github.com/settings/applications/new
 # If you want to use valine,you should get the app_id and app_key from https://leancloud.cn ,more setting please see https://valine.js.org
 comment:
-    use:
+    use: gitalk
     shortname: # duoshuo or disqus shortname
     changyan_appid:
     changyan_conf:
@@ -260,10 +260,11 @@ comment:
     valine_lang: zh-cn # i18n
     valine_placeholder: Just go go # valine comment input placeholder(like: Please leave your footprints )
     valine_guest_info: nick,mail,link #valine comment header info
-    gitalk_repo: # git repo of the hexo
-    gitalk_owner: # git repo's owner
-    gitalk_client_id: # github app client id
-    gitalk_client_secret: # github app client secret
+    gitalk_repo: cntanglijun.github.io # git repo of the hexo
+    gitalk_owner: cntanglijun # git repo's owner
+    gitalk_client_id: 34424562a1c9a39ea6ef # github app client id
+    gitalk_client_secret: 6136d08780bb790bc2c515deb13f74df24734ee8 # github app client secret
+    gitalk_short_url_source: 202088835
     wildfire_database_provider: firebase # firebase or wilddog
     wildfire_wilddog_site_id:
     wildfire_firebase_api_key:
@@ -320,7 +321,7 @@ vendors:
 #   For example
 #       jquery: https://cdn.bootcss.com/jquery/2.2.1/jquery.js
     # jQuery 2.2.0
-    jquery:
+    jquery: https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js
     # nprogress 0.2.0
     nprogress:
     # FontAwesome 4.5.0
