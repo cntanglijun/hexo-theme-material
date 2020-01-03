@@ -34,12 +34,12 @@ scheme: Paradox
 # UI & UX: slogan, color, effect
 uiux:
     slogan: "热爱编程，享受编程"
-    theme_color: "#0097A7"
-    theme_sub_color: "#00838F"
-    hyperlink_color: "#00838F"
-    button_color: "#757575"
-    android_chrome_color: "#0097A7"
-    nprogress_color: "#2962ff"
+    theme_color: "#3d3b4f"
+    theme_sub_color: "#3d3b4f"
+    hyperlink_color: "#3d3b4f"
+    button_color: "#3d3b4f"
+    android_chrome_color: "#3d3b4f"
+    nprogress_color: "#3d3b4f"
     nprogress_buffer: "800"
 
 # JS Effect Switches
